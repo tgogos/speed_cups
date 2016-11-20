@@ -26,3 +26,6 @@ body,div {margin:0; padding:0;}
 
 
 .test {width:200px;}
+
+.play-button {position: fixed; top: 50px; left: 0px; z-index: 100; background-color: #02B7FF; color: #fff; font-family: "Calibri", sans-serif; font-size: 200%; border: 0; transition: padding-left .3s; }
+.play-button:hover {padding-left:50px; cursor: pointer; }

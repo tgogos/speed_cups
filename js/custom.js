@@ -13,7 +13,7 @@ $( document ).ready(function() {
 	});
 
 
-    $('button').on('click',function(){
+    $('.play-button').on('click',function(){
     	
 
     	var i=0;
