@@ -1,10 +1,10 @@
-body,div {margin:0; padding:0;}
+html,body,div {margin:0; padding:0; height: 100%; width: 100%; font-size:0;}
 
-.main-wrapper { /*border:1px solid grey;*/ margin: 0 auto; display:inline-block; width:100%; height:100%; margin-top:30px;}
+.main-wrapper {display:inline-block; width:100%; height:100%;}
 
-.box {  left:40%; top:20%; width:20%; height:20%; border:6px solid #fff;  margin:10px; box-shadow: 0px 0px 10px #888; position:absolute;}
-.box-portrait {width:15%; height:50%; display:inline-block; }
-.box-landscape {width:50%; height:15%; display:block; }
+.box {  left:25%; top:25%; width:50%; height:50%; position:absolute;}
+.box-portrait {width:20%; height:100%; display:inline-block; top: 0; }
+.box-landscape {width:100%; height:20%; display:block; left:0; }
 
 .portrait-position-0 {left:0%;}
 .portrait-position-1 {left:20%;}
@@ -20,12 +20,12 @@ body,div {margin:0; padding:0;}
 
 #red {background-color:#ff0022;}
 #yellow {background-color:#ffdd00;}
-#orange {background-color:#ff6600;}
+#orange {background-color:#ff9600;}
 #blue {background-color:#006eff;}
 #green {background-color:#59B811;}
 
 
 .test {width:200px;}
 
-.play-button {position: fixed; top: 50px; left: 0px; z-index: 100; background-color: #02B7FF; color: #fff; font-family: "Calibri", sans-serif; font-size: 200%; border: 0; transition: padding-left .3s; }
+.play-button {position: fixed; top: 50px; left: 0px; z-index: 100; background-color: #000; color: #fff; font-family: "Calibri", sans-serif; font-size: 40px; border: 0; transition: padding-left .3s; }
 .play-button:hover {padding-left:50px; cursor: pointer; }

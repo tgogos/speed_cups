@@ -1,7 +1,5 @@
 
 $( document ).ready(function() {
-	
-	console.log('ready');
     
 	var boxColors = ['red','orange','yellow','green','blue'];
 	var boxOrientation = ['portrait','landscape'];
