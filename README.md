@@ -3,8 +3,8 @@ When the "Play" button is hit, the 5 colors randomly:
  - change their order and
  - take their place horizontally or vertically
  
-## Vertical case
-![speed cup vertical case](README.files/prntScr_a.jpg)
+## Build process
+![speed cups build process](README.files/build_process.jpg)
 
-## Horizontal case
-![speed cup horizontal case](README.files/prntScr_b.jpg)
+## How to play
+![speed cups gameplay](README.files/gameplay.jpg)
